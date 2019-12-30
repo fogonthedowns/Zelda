@@ -8,12 +8,12 @@
       <File FileName="Assets/Scripts/Log.cs" />
       <File FileName="Assets/Scripts/ScriptableObject/FloatValue.cs" />
       <File FileName="Assets/Scripts/KnockBack.cs" />
-      <File FileName="Assets/Scripts/PlayerMovement.cs" Line="32" Column="60" />
+      <File FileName="Assets/Scripts/PlayerMovement.cs" />
       <File FileName="Assets/Scripts/HeartManager.cs" />
       <File FileName="Assets/Scripts/SignalListener.cs" />
       <File FileName="Assets/Scripts/ScriptableObject/Signal_Event.cs" />
       <File FileName="Assets/Scripts/SceneTransition.cs" Line="19" Column="13" />
-      <File FileName="Assets/Scripts/ScriptableObject/VectorValue.cs" Line="9" Column="1" />
+      <File FileName="Assets/Scripts/ScriptableObject/VectorValue.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
