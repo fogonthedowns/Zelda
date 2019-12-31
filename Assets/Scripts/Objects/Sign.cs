@@ -35,7 +35,7 @@ public class Sign : Interactable
         {
             playerInRange = false;
             dialogBox.SetActive(false);
-            contextOff.Raise();
+            context.Raise();
         }
     }
 }

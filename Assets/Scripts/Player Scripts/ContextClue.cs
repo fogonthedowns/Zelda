@@ -4,16 +4,22 @@ using UnityEngine;
 
 public class ContextClue : MonoBehaviour
 {
-    // This is the Context Clue set up under player
+    // This is the Context Clue Game Object
+    // set up under player
     public GameObject contextClue;
+    public bool contextActive = false;
 
-    public void Enable()
+    public void Toggle()
     {
-        contextClue.SetActive(true);
-    }
-
-    public void Disable()
-    {
-        contextClue.SetActive(false);
+        contextActive = !contextActive;
+        if (contextActive)
+        {
+            contextClue.SetActive(true);
+        } else
+        {
+            contextClue.SetActive(false);
+        }
+        // toogle the contextActive
+        
     }
 }

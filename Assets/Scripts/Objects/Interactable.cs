@@ -5,8 +5,7 @@ using UnityEngine;
 public class Interactable : MonoBehaviour
 {
     public bool playerInRange;
-    public Signal_Event contextOn;
-    public Signal_Event contextOff;
+    public Signal_Event context;
 
     // Start is called before the first frame update
     void Start()
@@ -24,7 +23,7 @@ public class Interactable : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            contextOn.Raise();
+            context.Raise();
             playerInRange = true;
         }
     }
@@ -34,7 +33,7 @@ public class Interactable : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             playerInRange = false;
-            contextOff.Raise();
+            context.Raise();
         }
     }
 
