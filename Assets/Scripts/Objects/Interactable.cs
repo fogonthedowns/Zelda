@@ -21,16 +21,18 @@ public class Interactable : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+
+        if (other.CompareTag("Player") && !other.isTrigger)
         {
             context.Raise();
             playerInRange = true;
+            Debug.Log("YO! 1");
         }
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") && !other.isTrigger)
         {
             playerInRange = false;
             context.Raise();

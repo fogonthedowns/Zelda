@@ -396,13 +396,13 @@ TextureImporter:
       name: character_11
       rect:
         serializedVersion: 2
-        x: 208
+        x: 199
         y: 224
         width: 16
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 1, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -416,7 +416,7 @@ TextureImporter:
       name: character_12
       rect:
         serializedVersion: 2
-        x: 224
+        x: 216
         y: 224
         width: 16
         height: 32
